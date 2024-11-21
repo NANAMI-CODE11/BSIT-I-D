@@ -1,13 +1,14 @@
 public class CODENIERA_ACTIVITY_IV {
     public static void main (String [] args){
-        String one = "My name is";
-        String two = " Mhyko Codeniera";
-        String three = " and I am ";
-        int age = 18;
-        String four = " years old";
-
-        System.out.println(one + two + three + age + four);
-
-
+       Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int number = sc.nextInt();
+        int factorial = 1;
+        
+        for (int i = 1; i <= number; i++) {
+            factorial = factorial * i; 
+        }
+        
+        System.out.println("Factorial: " + factorial);
     }
 }
