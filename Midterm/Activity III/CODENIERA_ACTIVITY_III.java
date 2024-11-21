@@ -5,6 +5,5 @@ public class CODENIERA_ACTIVITY_III {
             System.out.println(x);
             x--;
         }
-        System.out.println();
     }
 }
