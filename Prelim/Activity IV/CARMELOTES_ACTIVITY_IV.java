@@ -1,26 +1,15 @@
-class CARMELOTES_PROG1_ACTIVITY_III {
-    public static void main (String[] args) {
-    String name = "Arvi";
+public class CARMELOTES_ACTIVITY_IV {
+  public static void main(String[] args) {
+    String A = "My name is ";
+    String B = "Mark ";
+    String C = "and I am ";
     int age = 18;
-    double height = 1.58;
-    float weight =58f;
-    char letter = 'j';
- 
-    
-    System.out.println(name);
-    System.out.println(age);
-    System.out.println(height);
-    System.out.println(weight);
-    System.out.println(letter);
-    
- 
- 
- 
- 
- 
-    }
- 
- }
- 
-    
+    String suffex = " years old";
+
+    System.out.println(A+B+C+age+suffex);
+
+  }
+
+}
+
 
