@@ -19,10 +19,7 @@ class RIO_ACTIVITY_1 {
             System.out.println("Enter the choices that are shown");
 
         }
-        
-
-
-
+        sc.close();
     }
 }
 
