@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CODENIERA_ACTIVITY_IV {
+public class MOSCOSO_ACTIVITY_IV {
     public static void main (String [] args){
        Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
