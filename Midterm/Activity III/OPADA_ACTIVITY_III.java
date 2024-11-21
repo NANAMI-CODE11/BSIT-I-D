@@ -5,6 +5,5 @@ public class OPADA_ACTIVITY_III {
             System.out.println(x);
             x--;
         }
-        System.out.println();
     }
 }
