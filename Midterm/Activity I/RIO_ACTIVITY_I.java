@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class RIO_ACTIVITY_1 {
+class RIO_ACTIVITY_I {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Choose a color between Red,Green,Black:");
