@@ -23,5 +23,6 @@ public class TABUCANON_ACTIVITY_I {
                     System.out.println("Enter a valid color");
                     break;
             }
+        sc.close();
     }
 }
