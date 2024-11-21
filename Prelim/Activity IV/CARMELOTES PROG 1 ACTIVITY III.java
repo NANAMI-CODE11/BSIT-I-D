@@ -1,4 +1,4 @@
-class CARMELOTES_PROG1_ACTIVITY_III {
+class CARMELOTES_PROG1_ACTIVITY_IV {
     public static void main (String[] args) {
     String name = "Arvi";
     int age = 18;
