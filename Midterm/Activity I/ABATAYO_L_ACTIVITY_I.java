@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ABATAYOL_L_ACTIVITY_I {
+public class ABATAYO_L_ACTIVITY_I {
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("------------------");
