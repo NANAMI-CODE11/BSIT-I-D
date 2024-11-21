@@ -1,4 +1,4 @@
-    7class_ MUNASQUE_ ACTIVITY_IV {
+    class_ MUNASQUE_ ACTIVITY_IV.java {
     public static void main ( String []args) {
         String name= "My name is";
         String name= "Toshe Mecca";
