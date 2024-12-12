@@ -41,7 +41,7 @@ public class CARMELOTES_FINALS_PROJECT {
 
     static void logIn() {
         String studentNumber = "20242084";
-        String password = "December24";
+        String password = "March 15";
         System.out.print("Student Number: ");
         Scanner sc1 = new Scanner(System.in);
         String inputStudentNumber = sc1.nextLine();
