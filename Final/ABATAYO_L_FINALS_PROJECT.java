@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ABATAYO_FINALS_PROJECT {
+public class ABATAYO_L_FINALS_PROJECT {
     
     public static void main(String[] args) {
         // Declaring variables with appropriate types
