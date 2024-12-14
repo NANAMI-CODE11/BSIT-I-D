@@ -29,7 +29,7 @@ public class BELTRAN_FINALS_PROJECT {
             System.out.print("This program is not yet available");
 
             case 3:
-            System.out.println("This program is made by Julienne Ybañez. BSIT-1D Student");
+            System.out.println("This program is inspired by Julienne Ybañez. BSIT-1D Student");
     
             default:
             System.out.println("Invalid choice. Please try again.");
