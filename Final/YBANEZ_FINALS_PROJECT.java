@@ -96,7 +96,7 @@ public class YBANEZ_FINALS_PROJECT {
         System.out.println(dogAge);
         System.out.println(ageMessage);
 
-        // Remember, hard work pays off!
+        // Remember, hard work pays off! (Random annoying message for funsies~)
         int counter = 0;
         while (counter < 3) {
             System.out.println("Remember, hard work pays off!");
@@ -170,7 +170,7 @@ public class YBANEZ_FINALS_PROJECT {
             System.out.println("Your score: " + ((double) correctAnswers / totalQuestions) * 100 + "%");
 
             case 3:
-                System.out.println("Exiting...");
+                System.out.println("Farewell...Tell my family...goodbye...");
                 break;
             default:
                 System.out.println("Invalid choice. Please try again.");
