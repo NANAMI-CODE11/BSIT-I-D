@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+public class BARITOGO_FINAL_ACTIVITY {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String password = "baritogo123"; 
+        boolean isAuthenticated = false;
+        int attempts = 0;
+
+        while (!isAuthenticated && attempts < 3) {
+            System.out.print("Enter the security password: ");
+            String inputPassword = scanner.nextLine();
+            attempts++;
+
+            if (inputPassword.equals(password)) {
+                isAuthenticated = true;
+                System.out.println("Access granted.");
+            } else {
+                System.out.println("Incorrect password. Try again.");
+                if (attempts == 3) {
+                    System.out.println("Too many failed attempts. Locking system.");
+                }
+            }
+        }
+
+        if (isAuthenticated) {
+            boolean running = true;
+
+            while (running) {
+                System.out.println("\nHome Security System Menu:");
+                System.out.println("1. Activate Alarm");
+                System.out.println("2. Deactivate Alarm");
+                System.out.println("3. Check Security Status");
+                System.out.println("4. Exit");
+                System.out.print("Choose an option: ");
+                int choice = scanner.nextInt();
+
+                switch (choice) {
+                    case 1:
+                        System.out.println("Alarm activated.");
+                        break;
+                    case 2:
+                        System.out.println("Alarm deactivated.");
+                        break;
+                    case 3:
+                        for (int i = 0; i < 5; i++) {
+                            System.out.println("Checking security status... " + (i + 1) * 20 + "% complete.");
+                     
+                            try {
+                                Thread.sleep(500); 
+                            } catch (InterruptedException e) {
+                                System.out.println("Error in status check.");
+                            }
+                        }
+                        System.out.println("Security status: All systems operational.");
+                        break;
+                    case 4:
+                        System.out.println("Exiting the system.");
+                        running = false; 
+                        break;
+                    default:
+                        System.out.println("Invalid option. Please try again.");
+                        continue; 
+                }
+            }
+        }
+    }
+}
