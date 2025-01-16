@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CARMELOTESPROG {
+public class CARMELOTES_ACTIVITY_1 {
     public static void main(String[] args) {
         
         String[] names = new String[5];
