@@ -17,13 +17,13 @@ public class CABATAS_ACTIVITY_I {
                 int index = scanner.nextInt();
                 if (index >= 1 && index <= 5) {
                     System.out.println("The name at position " + index + " is: " + names[index - 1]);
-                    break; // Exit the loop after displaying the name
+                    break; 
                 } else {
                     System.out.println("Please enter a number between 1 and 5.");
                 }
             } else {
                 System.out.println("Invalid input! Please enter a numeric value.");
-                scanner.next(); // Consume the invalid input
+                scanner.next();
             }
         }
 
