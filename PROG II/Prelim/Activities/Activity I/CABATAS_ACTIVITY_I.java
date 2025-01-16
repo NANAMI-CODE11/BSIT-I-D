@@ -5,14 +5,12 @@ public class CABATAS_ACTIVITY_I {
         Scanner scanner = new Scanner(System.in);
         String[] names = new String[5];
 
-        // Input: Prompt the user to enter 5 names
         System.out.println("Enter 5 names:");
         for (int i = 0; i < 5; i++) {
             System.out.print("Enter name " + (i + 1) + ": ");
             names[i] = scanner.nextLine();
         }
 
-        // Loop to ensure valid input for index
         while (true) {
             System.out.print("Enter a number between 1 and 5 to display a name: ");
             if (scanner.hasNextInt()) {
@@ -29,6 +27,6 @@ public class CABATAS_ACTIVITY_I {
             }
         }
 
-        scanner.close(); // Close the scanner
+        scanner.close();
     }
 }
