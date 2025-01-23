@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ABATAYO_ACTIVITY_II {
+public class ABATAYO_L_ACTIVITY_II {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double[] scores = new double[10];
