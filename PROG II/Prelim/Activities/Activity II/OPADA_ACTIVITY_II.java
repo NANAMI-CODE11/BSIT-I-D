@@ -18,7 +18,7 @@ public class OPADA_ACTIVITY_II{
         }
 
         double average = total / scores.length;
-        System.out.println("\nThe average of the 10entered score is: " + average);
+        System.out.println("\nThe average of the 10 entered score is: " + average);
     }
 }
 
