@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AverageScores {
+public class LEBOSADA_ACTIVITY_II {
     public static void main(String[] args) {
         double[] scores = new double[10];
         Scanner scanner = new Scanner(System.in);
