@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Axcel_DelosReyes_ActivityII {
+public class AXCEL_DELOSREYES_ACTIVITYII {
     public static void main(String[] args) {
         // Create an array to store 10 scores
         double[] scores = new double[10];
