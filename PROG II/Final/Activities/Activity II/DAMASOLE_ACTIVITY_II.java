@@ -8,7 +8,7 @@ public class DAMASOLE_ACTIVITY_II {
 
         double inches = feet * 12;
 
-        System.out.println(feet + "feet is equal to " + inches);
+        System.out.println(feet + " feet is equal to " + inches);
         
     }
 }
