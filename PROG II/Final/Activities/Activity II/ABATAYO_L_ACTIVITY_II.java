@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ABATAYO_ACTIVITY_II {
+public class ABATAYO_L_ACTIVITY_II {
 
     public static int convertFeetToInches(int feet) {
         return feet * 12;
