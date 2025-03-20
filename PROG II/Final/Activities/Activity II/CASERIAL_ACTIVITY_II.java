@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class CASERIAL_ACTIVITY_II {
+
+    public static double convertToInches(double feet) {
+      return feet * 12;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of feet: ");
+        double feet = scanner.nextDouble();
+
+        System.out.println("Inches: " + convertToInches(feet));
+
+        scanner.close();
+    }
+}
