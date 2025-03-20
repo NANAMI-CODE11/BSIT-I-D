@@ -1,4 +1,3 @@
-RESGOÑA_ACTVITY_I.java
 import java.util.Scanner;
 
 public class RESGONA_ACTIVITY_II {
